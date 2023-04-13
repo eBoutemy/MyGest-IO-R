@@ -1,4 +1,6 @@
+#!/bin/bash
 IFS=":" read username password < informations/credentials.txt
+read bddinfo < informations/infobdd.txt
 
 echo "Que souhaitez vous générer ? :"
 echo "1) Toute les informations"
@@ -12,19 +14,19 @@ read choix
 
 case $choix in
     1)
-	mysql --user=$username --password=$password -e "SELECT * FROM Equipement.Equipement;" | tail -n +2 > informations/toute_info.txt
+	mysql --user=$username --password=$password -e "SELECT * FROM $bddinfo.Equipement;" | tail -n +2 > informations/toute_info.txt
         ;;
     2)
-	mysql --user=$username --password=$password -e "SELECT nom,adIP,id FROM Equipement.Equipement WHERE id="1";" | tail -n +2 > informations/info_machine.txt
+	mysql --user=$username --password=$password -e "SELECT nom,adIP,id FROM $bddinfo.Equipement WHERE id="1";" | tail -n +2 > informations/info_machine.txt
         ;;
     3)
-	mysql --user=$username --password=$password -e "SELECT nom,adIP,id FROM Equipement.Equipement WHERE id="3";" | tail -n +2 > informations/info_serveurs.txt
+	mysql --user=$username --password=$password -e "SELECT nom,adIP,id FROM $bddinfo.Equipement WHERE id="3";" | tail -n +2 > informations/info_serveurs.txt
         ;;
     4)
-	mysql --user=$username --password=$password -e "SELECT nom,adIP,id FROM Equipement.Equipement WHERE id="2";" | tail -n +2 > informations/info_switch.txt
+	mysql --user=$username --password=$password -e "SELECT nom,adIP,id FROM $bddinfo.Equipement WHERE id="2";" | tail -n +2 > informations/info_switch.txt
         ;;
     5)
-	mysql --user=$username --password=$password -e "SELECT nom,adIP,id FROM Equipement.Equipement WHERE id="4";" | tail -n +2 > informations/info_routeur.txt
+	mysql --user=$username --password=$password -e "SELECT nom,adIP,id FROM $bddinfo.Equipement WHERE id="4";" | tail -n +2 > informations/info_routeur.txt
         ;;
     0)
         echo "Au revoir!"
