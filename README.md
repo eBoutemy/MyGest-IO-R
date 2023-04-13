@@ -8,7 +8,7 @@ Téléchargez le code source de ce projet sur votre ordinateur.
 Accédez au dossier d'installation en exécutant la commande cd install.
 Assurez-vous que le fichier install.sh est exécutable avec la commande chmod +x install.sh.
 Exécutez le script d'installation avec la commande ./install.sh.
-Suivez les instructions à l'écran pour configurer l'application.
+Suivez les instructions afficher à l'écran pour configurer l'application.
 
 Utilisation
 
