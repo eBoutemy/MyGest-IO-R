@@ -15,7 +15,7 @@ Utilisation
 Après avoir tout installé, vous pouvez y accéder en ouvrant le script MyGest IO'R.sh.
 
 Auteurs
-Ce projet a été créé par Enzo Boutemy et Jordan Vancauwenbergh.
+Ce projet a été créé par Enzo Boutemy et Jordan Vancauwenberghe.
 
 ![image](https://user-images.githubusercontent.com/78074328/231731229-3da94ff3-d210-4479-9732-235de3ddcd23.png)
 
