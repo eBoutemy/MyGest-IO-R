@@ -46,6 +46,7 @@ Menu principal avec 3 options disponible.
 
 Pour cette partie je vous invite à voir le github de [Jordan Vancauwenberghe](https://github.com/JordanVancau/MyGest-IO-R) Il s'est occupé à 90% de cette partie
 
+## **GESTION INSTALLATIONS**
 ![image](https://user-images.githubusercontent.com/130663645/231999808-13a86e57-8fd5-46f5-add7-f70c0672bcd1.png)
 
 - 1 Installation PHP
