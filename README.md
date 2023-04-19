@@ -32,6 +32,14 @@ Menu principal avec 3 options disponible.
  
  ![image](https://media.discordapp.net/attachments/1020040315157106780/1093487332973363280/image.png) 
  
+ - 1 Consulter les données
+ 
+ ![image](https://user-images.githubusercontent.com/78074328/233165587-807a0178-fa5b-4c9d-b04c-07a646ae2d78.png)
+
+- 2 
+
+
+ 
 ## **OUTILS RESEAU** 
 
 ![image](https://user-images.githubusercontent.com/130663645/231999386-8d9737e7-f9b0-4adb-90c7-1c8ad044cd79.png) 
