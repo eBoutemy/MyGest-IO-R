@@ -28,27 +28,15 @@ Menu principal avec 3 options disponible.
  - 2 Outils Réseaux.
  - 3 installations de différentes utilitaires.
 
-## **OUTILS RESEAU**
+## **GESTION BASE DE DONNES**
+ 
+ ![image](https://media.discordapp.net/attachments/1020040315157106780/1093487332973363280/image.png) 
  
 ## **OUTILS RESEAU** 
 
 ![image](https://user-images.githubusercontent.com/130663645/231999386-8d9737e7-f9b0-4adb-90c7-1c8ad044cd79.png) 
 
-La partie outils réseau est la partie sur là quel [Jordan Vancauwenberghe](https://github.com/JordanVancau/MyGest-IO-R) à plus travaillé, j'ai participé à l'activité 4 et 5.
-- 1 Tester une IP.
-     - ![image](https://user-images.githubusercontent.com/130663645/232010520-ace3ea4c-9d80-45e4-8eec-7a4a35129b3d.png)
-      
- - 2 Tester un port TCP.
-     - Permets de vérifier si le port que vous êtes entrée est accessible
-      
- - 3 Consulter les IP active.
-     - Permets de voir si les Ip entrée auparavant dans la base de données nous répondent
-      
- - 4 Génère un Txt depuis la bdd.
-     - Génère un ficher texte avec les informations entré dans la base de données
-      
- - 5 Connexion en SSH.
-     - Permet de se connecter en ssh en entrant simplement l'ip de la cible 
+Pour cette partie je vous invite à voir le github de [Jordan Vancauwenberghe](https://github.com/JordanVancau/MyGest-IO-R) Il s'est occupé à 90% de cette partie
 
 ![image](https://user-images.githubusercontent.com/130663645/231999808-13a86e57-8fd5-46f5-add7-f70c0672bcd1.png)
 
